@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html  ng-app="app">
+<head>
+    <base href="/">
+
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/style.css">
+</head>
+<body  style="background-color: #eee">
+<div class="jumbotron">
+    <div class="container">
+
+            <div ng-view></div>
+
+    </div>
+</div>
+
+<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="//code.angularjs.org/1.2.20/angular.js"></script>
+<script src="//code.angularjs.org/1.2.20/angular-route.js"></script>
+<script src="//code.angularjs.org/1.2.13/angular-cookies.js"></script>
+<script src="app.js"></script>
+<script src="authentication/services.js"></script>
+<script src="authentication/controllers.js"></script>
+<script src="home/directives/messageDirective.js"></script>
+<script src="home/directives/usersDirective.js"></script>
+<script src="home/controllers.js"></script>
+
+</body>
+
+</html>

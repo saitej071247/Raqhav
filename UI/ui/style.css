@@ -1,0 +1,72 @@
+.name{
+    font-family: 'Helvetica Neue Medium', 'Helvetica Neue';
+    font-weight: 500;
+    color: #333;
+    font-size: 13px;
+    display: inline;
+}
+
+.phone{
+    position: relative;
+    font-family: 'Helvetica Neue Light', 'Helvetica Neue';
+    font-size: 13px;
+    color: #868686;
+    display: block;
+}
+
+.list-element{
+    line-height: 30px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-left: 5px;
+    border: 1px solid #dbdbdb;
+    margin: -1px 1px -1px 1px;
+
+}
+.user-selected{
+    background-color: #1BA9CC;
+}
+
+.user-selected .name{
+    font-family: 'Helvetica Neue Medium', 'Helvetica Neue';
+    font-weight: 500;
+    font-size: 13px;
+    display: inline;
+    color: white;
+
+}
+.user-selected .phone{
+    position: relative;
+    font-family: 'Helvetica Neue Light', 'Helvetica Neue';
+    font-size: 13px;
+    display: block;
+    color: white;
+
+}
+
+.conversation{
+    border: 1px dotted #D7D7D7;
+    float: left;
+}
+label{
+    font-weight: normal;
+}
+
+.image-css  {
+    border: 4px solid white;
+    border-radius: 10px;
+    /*
+    padding: 1px;
+    */
+}
+.image-css-small  {
+    border: 4px solid black;
+    border-radius: 10px;
+    /*
+    padding: 1px;
+    */
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+}
